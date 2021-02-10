@@ -1,0 +1,49 @@
+#txa
+{	
+	background-color: #444;
+	font-size: 30px;
+	width: 500px;
+	height: 350px;
+	display: block;
+	border: 1px solid black;
+	border-bottom: 0;
+	padding: 0;
+	box-sizing: border-box;
+	outline: 0;
+	resize: none;
+}
+#st 
+{
+	width: 500px;
+	height: 500px;
+	margin: 50px auto;
+	padding: 30px;
+	background-color: #ccc
+}
+.in
+{
+	background-color: #444;
+	border: 1px solid black;
+	border-top: 0;
+	font-size: 15px;
+	font-weight: bold;
+}
+body{background-color: #444}
+.btn
+{  margin-top: 15px;
+	background-color:#32CD75;
+	font-weight: bold;
+	font-family: cursive;
+    padding: 10px;
+    width: 200px;
+    height: 60px;
+    text-transform: capitalize;
+	font-size: 25px;
+	cursor:pointer}
+.inin
+{	display: inline-block;
+	background-color: #ccc;
+	padding: 5px 8px;
+	border-top: 1px solid black;
+	border-right: 1px solid black;
+}

@@ -1,0 +1,49 @@
+body {
+	height: 4000px;
+	margin: 0;
+	padding: 0;
+}
+
+#main {
+	background-color: #000;
+	border-radius: 40px;
+	color: aliceblue;
+	cursor: pointer;
+	display: block;
+	font-size: 20px;
+	height: 40px;
+	margin: 10px auto;
+	outline: 0;
+	text-align: center;
+	transition: 0.3s;
+	width: 140px;
+
+}
+
+#show {
+	background-color: #ddd;
+	border: 3px inset #555;
+	border-radius: 50px;
+	height: 30px;
+	margin: 20px auto;
+	padding: 15px;
+	text-align: center;
+	width: 300px;
+}
+
+#p 
+{
+	text-align: center;
+}
+
+#st {
+	background-color: #ccc;
+	height: 500px;
+	margin: 50px auto;
+	padding: 30px;
+	width: 500px;
+}
+
+body {
+	background-color: #555
+}

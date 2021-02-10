@@ -1,0 +1,23 @@
+body {
+	height: 4000px;
+	margin: 0;
+	padding: 0;
+}
+
+.main
+{
+	background-color: #000;
+	border-radius: 40px;
+	bottom: 20px;
+	color: aliceblue;
+	cursor: pointer;
+	display: none;
+	font-size: 20px;
+	height: 40px;
+	outline: 0;
+	position: fixed;
+	right: 20px;
+	text-align: center;
+	transition: 0.3s;
+	width: 40px;
+}

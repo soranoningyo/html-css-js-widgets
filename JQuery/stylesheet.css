@@ -1,0 +1,214 @@
+/*.container {
+	margin: 50px auto;
+	margin-bottom: 10px;
+	width: 80%;
+}
+
+
+button {
+	background: #dedede;
+	border: 0;
+	cursor: pointer;
+	font-size: 20px;
+	margin: 0;
+	padding: 20px;
+	text-align: left;
+	width: 100%;
+}
+button:hover {
+	background: #cbcbcb
+}
+p {
+	background: #efefef;
+	display: none;
+	font-size: 18px;
+	line-height: 1.5;
+/	margin-bottom: 10px;
+	margin: 0;
+	overflow: hidden;
+	padding:20px;
+/	transition: 0.3s;
+}
+span{display: none}
+.id
+{
+	margin: 0 auto;
+	width: 200px
+}*/
+/**/
+/*.fade
+{
+	background-color: #eee;
+	border: 1px solid #999;
+/	display: none;*
+	margin: 20px 25px;
+	padding: 15px;
+	width: 800px;
+}
+button {
+	background: #dedede;
+	cursor: pointer;
+	font-size: 20px;
+	padding: 10px;
+	text-align: left;
+
+}*/
+/**/
+/*.container {
+	margin: 50px auto;
+	margin-bottom: 10px;
+	width: 80%;
+}
+
+
+button {
+	background: #dedede;
+	border: 0;
+	cursor: pointer;
+	font-size: 20px;
+	margin: 0;
+	padding: 20px;
+	text-align: left;
+	width: 100%;
+}
+button:hover {
+	background: #cbcbcb
+}
+p {
+	background: #efefef;
+	display: none;
+	font-size: 18px;
+	line-height: 1.5;
+/	margin-bottom: 10px;
+	margin: 0;
+	overflow: hidden;
+	padding:20px;
+/	transition: 0.3s;
+}
+button::after {
+	content: "\002b";
+	float: right
+}
+
+.act::after {
+	content: "\2212"}*/
+/*div{
+	background-color: #eee;
+	border: 1px solid #999;
+/\	direction: rtl;
+	height: 400px;
+/\	display: none
+/\	margin: 20px auto;
+/\	margin-top: ;
+	padding: 15px;
+	position: relative;
+/\	text-align: center;
+	width: 400px;
+	
+}
+span
+{
+	display: block;
+/\
+	width: 400px;
+	background-color: #eee;
+	border: 1px solid #999;
+\/
+}*/
+/**/
+/*.d
+{
+	width: 400px;
+*	background-color: #ccc;*
+}
+p
+{
+	padding: 20px;
+	background-color: blue
+}
+div p
+{
+	width: 400px;
+	height: 200px;
+	background-color: #ccc;
+	font-size: 20px;
+	word-wrap: break-word;
+}*/
+/**/
+/*a:link,
+a:visited,
+a:hover,
+a:active {
+	cursor: url("https://i.imgur.com/DxN7O8M.png"), pointer
+}not releted to jquery*/
+/*
+ a:hover {
+	text-shadow: 0 0 2.5px #fb3061, 0 0 2.5px #fb3061;
+	color: #ffa6bc !important;
+	text-decoration: none;
+	-webkit-transition: all .4s linear 0s;
+	-moz-transition: all .4s linear 0s;
+	-ms-transition: all .4s linear 0s;
+	-o-transition: all .4s linear 0s;
+	 transition: all .4s linear 0s
+}
+a {
+	text-shadow: 0 -15px 2.5px transparent, 0 15px 2.5px transparent;
+	text-decoration: none
+}not releted to jquery*/
+/**/
+/*
+div
+{
+	width: 35px;
+	height: 35px;
+	border-radius: 25px;
+	background-color: red;
+	border: 8px solid blue;
+	display: none
+}*/
+/**/
+/*
+*
+{
+	margin: 0;
+	padding: 0;
+}
+body
+{
+	height: 4000px
+}
+div
+{
+	background-color: #ddd;
+	border: 1px solid #888;
+	padding: 10px;
+	width: 100%;
+	position: absolute;
+	top: 300px
+}*/
+*
+{
+	margin: 0;
+	padding: 0;
+}
+body
+{
+	height: 4000px
+}
+div
+{
+	background-color: #ddd;
+	border: 1px solid #888;
+	box-sizing: border-box;
+	height: 800px;
+	margin-bottom: 10px;
+	padding: 10px;
+	width: 100%;
+}
+.x,.y,.z
+{
+/*	opacity: 0;*/
+	display: none;
+/*	visibility: hidden*/
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Jajanken</title>
+        <link rel="stylesheet" href="css/fontawesome.min.css">
+        <link rel="stylesheet" href="css/solid.min.css">
+        <link rel="stylesheet" href="css/brands.min.css">
+        <link rel="stylesheet" href="css/style.css"
+    </head>
+    <body>
+        <h1 style="text-align:center">JavaScript, HTML, CSS - Rock Paper Scissors Game</h1>
+        <div class="btnholder">
+            <button data-val="rock">
+                <i class="fas fa-hand-rock fa-3x"></i>
+            </button>
+            <button data-val="paper">
+                <i class="fas fa-hand-scissors fa-3x"></i>
+            </button>
+            <button data-val="scissor">
+                <i class="fas fa-hand-paper fa-3x"></i>
+            </button>
+        </div>
+            <div id="result"></div>
+        <script>
+        document.querySelectorAll('button').forEach(function (item) {
+            item.onclick = function (e) {
+                var selected = e.target.dataset.val,
+                    possiblitis = ['rock','paper','scissor'],
+                    aiSelection = possiblitis[Math.floor(Math.random() * possiblitis.length)],
+                    result = document.getElementById('result');
+                    if (selected === undefined) {
+                        selected = e.target.parentElement.dataset.val
+                    }
+                if (
+                    selected == 'rock' && aiSelection == 'rock' ||
+                    selected == 'paper' && aiSelection == 'paper' ||
+                    selected == 'scissor' && aiSelection == 'scissor'
+                    ) {
+                        result.textContent = 'row'
+                        result.style.backgroundColor = "#0069D9"
+                }else if(
+                    selected == 'rock' && aiSelection == 'paper' ||
+                    selected == 'paper' && aiSelection == 'scissor' ||
+                    selected == 'scissor' && aiSelection == 'rock'
+                    ) {
+                        result.textContent = 'computer wins'
+                        result.style.backgroundColor = "#DC3545"
+                }else if(
+                    selected == 'rock' && aiSelection == 'scissor' ||
+                    selected == 'paper' && aiSelection == 'rock' ||
+                    selected == 'scissor'  &&  aiSelection == 'paper'
+                    ) {
+                        result.style.backgroundColor = "#28A745"
+                        result.textContent = 'you wins'
+                }
+            }
+        })
+
+
+        </script>
+    </body>
+</html>

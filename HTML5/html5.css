@@ -1,0 +1,164 @@
+* {
+	text-transform: capitalize;
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px
+}
+
+.clearfix {
+	clear: both
+}
+
+body {
+	font-family: " Comic Sans MS"
+}
+
+ul {
+	list-style: none
+}
+
+/*main header*/
+.main {
+	background-color: #333;
+	color: #ddd;
+	text-align: center;
+	padding: 20px
+}
+
+/*main header*/
+/*nav*/
+nav {
+	background-color: #ddd;
+	text-align: center
+}
+
+nav ul {
+	padding: 20px
+}
+
+nav ul li {
+	display: inline-block
+}
+
+nav ul li::after {
+	content: "|";
+	padding-left: 8px
+}
+
+nav ul li:last-of-type::after {
+	content: ""
+}
+
+/*nav*/
+/*main*/
+main {
+	background-color: #eee;
+	text-align: center;
+	padding: 15px
+}
+
+/*main*/
+/*article*/
+.articles {
+	float: left;
+	width: 70%
+}
+
+article {
+	background-color: #f6f6f6;
+	border: 1px solid #ccc;
+	margin: 20px;
+}
+
+article header {
+	background-color: #e2e2e2;
+	padding: 10px
+}
+
+article section {
+	padding: 20px
+}
+article header span:first-of-type{font-weight: bold}
+article section code {
+	margin: 10px auto 30px auto;
+	padding: 10px;
+	background-color: #f9f9f9;
+	display: block;
+	border: 1px solid #ccc;
+	max-width: 300px
+}
+
+article section .img {
+	background-color: #fff;
+	padding: 20px;
+	margin-top: 30px;
+	border: 1px solid #bbb;
+	text-align: center;
+	width: 100%;
+	box-shadow: 10px 10px 12px #ccc;
+
+
+}
+
+article section .img img {
+	margin-bottom: 10px;
+	width: 300px;
+	/*when you costumize photo in % it get very big when zooming out*/
+	height: 300px;
+	border: 5px groove #ccc;
+	padding: 5px;
+	box-shadow: 10px 10px 12px #ccc;
+}
+
+dialog {
+	position: fixed;
+	top: 1px;
+	left: 1px
+}
+
+input {
+	display: block;
+	margin: 10px
+}
+
+/*when two element get into each other make sure that both of them are block*/
+/*article*/
+/*aside*/
+
+aside {
+	float: left;
+	width: 30%
+}
+
+aside section {
+	background-color: #eee;
+	margin: 20px auto;
+	padding: 10px;
+	border: 1px solid #ccc;
+}
+
+aside section h3 {
+	background-color: #d1d1d1;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+
+aside section ul li {
+	line-height: 1.7;
+	padding-left: 15px
+}
+
+aside section ol {
+	list-style-position: inside
+}
+
+/*aside*/
+/*footer*/
+footer {
+	background-color: #333;
+	text-align: center;
+	padding: 15px;
+	color: #ddd
+}
+
+/*footer*/

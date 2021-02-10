@@ -1,0 +1,14 @@
+.st{	
+	background-color: #ccc;
+	bottom: 20px;
+	color: #444;
+	height: 30px;
+	padding: 20px;
+	position: fixed;
+	right: 20px;
+	width:280px;
+}
+#clock 
+{
+	display: inline-block
+}

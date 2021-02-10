@@ -1,0 +1,27 @@
+img
+{
+	border: 3px outset #f50;
+	box-shadow: 15px 15px 15px #ccc;
+	display: block;
+	height: 500px;
+	margin: 50px auto;
+	padding: 2px;
+	width: 900px;
+}
+p
+{
+	background-color: #000;
+	border: 3px outset #f50;
+	box-shadow: 15px 15px 15px #ccc;
+	color: #fff;
+	cursor: pointer;
+	font-family: cursive;
+	font-size: 30px;
+	font-weight: bold;
+	height: 40px;
+	margin: 50px auto;
+	padding: 10px;
+	text-align: center;
+	width: 15%;
+
+}

@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+	<html lang="en">
+		<head>
+			<meta charset="utf-8">
+			<title>html5</title>
+<!--			<link rel="stylesheet" href="Normalize.css">-->
+			<link rel="stylesheet" href="html5.css">
+		</head>
+
+		<body>
+			<!--header-->
+			<header class="main">
+				<h1>html5</h1>
+			</header>
+			<!--header-->
+			<!--nav-->
+			<nav>
+				<ul>
+					<li>home</li>
+					<li>about</li>
+					<li>services</li>
+					<li>contact us</li>
+				</ul>
+			</nav>
+			<!--nav-->
+			<!--main-->
+			<main>
+				<p>main content of the page which it should be just in the main page just one time</p>
+			</main>
+			<!--main-->
+			<!--article-->
+			<div class="articles">
+				<article>
+					<header>
+						<h2>progress</h2>
+						<p>created by <span>ahmed</span> on <time datetime="2019-2-20 12:27:40">2019/2/20</time></p><!--year-month-day'&nbsp;orT'hour:min:sec-->
+					</header>
+					<section>
+						<p>this article conclude story #01</p>
+						<div>
+							progress : <progress max="10" min="0" value="7"></progress>
+						</div>
+					</section>
+
+				</article>
+				<!--article-->
+				<!--article-->
+				<article>
+					<header>
+						<h2>article #02</h2>
+						<p>created by <span>ahmed</span> on <span>20/2/2019</span></p>
+					</header>
+					<section>
+						<p>this article conclude story #02</p>
+							<details open>
+								<summary>references</summary>
+								<ul>
+									<li>ref 1</li>
+									<li>ref 2</li>
+									<li>ref 3</li>
+								</ul>
+							</details>
+					</section>
+				</article>
+				<!--article-->
+				<!--article-->
+				<article>
+					<header>
+						<h2>article #03</h2>
+						<p>created by <span>ahmed</span> on <span>20/2/2019</span></p>
+					</header>
+					<section>
+						<p>this article conclude story #03</p>
+						<p id="long">file:///C:/Users<wbr>/Sora/Downloads/responsive/ResponsiveWeb-master/index.html/hfjkdfklf/kdkd/iloveyou</p>
+					</section>
+				</article>
+				<!--article-->
+				<!--article-->
+				<article>
+					<header>
+						<h2>article #04</h2>
+						<p>created by <span>ahmed</span> on <span>20/2/2019</span></p>
+					</header>
+					<section>
+						<p>code describe the div syntax:-</p>
+						<figure>
+							<!--it can be a container for images or code syntax or digrum ...etc,to make the content of it displayed block -->
+							<code>
+								&lt;div&gt; normal div &lt;/div&gt;
+							</code>
+						</figure>
+						<hr>
+						<figure class="img">
+						<dialog open>dialog</dialog>
+							<img src="photo.jpg" alt="معلش">
+							<img src="photo.jpg" alt="معلش">
+							<img src="photo.jpg" alt="معلش">
+							<figcaption>design 1-8</figcaption>
+						</figure>
+					</section>
+				</article>
+			
+			<!--article-->
+			<!--article-->
+				<article>
+					<header>
+						<h2>article #05</h2>
+						<p>created by <span>ahmed</span> on <span>20/2/2019</span></p>
+					</header>
+					<section>
+						<p>this article conclude story #05</p>
+						<form>
+	<!--						<input list="browser">
+						<datalist id="browser">
+							<option>opera</option>
+							<option>chrome</option>
+							<option>safari</option>
+							<option>firefox</option>
+							<option>microsoft edge</option>
+							<option>internet explorer</option>-->
+							
+<!--						</datalist>-->
+<!--					when tping all option that contain the letters which it were written will appear-->
+						<input list="browse">
+						<datalist id="browse">
+							<option value="opera"></option>
+							<option value="chrome"></option>
+							<option value="safari"></option>
+							<option value="firefox"></option>
+							<option value="microsoft edge"></option>
+							<option value="internet explorer"></option>
+							<option value="oacity"></option>
+							
+						</datalist>
+						</form>
+					</section>
+				</article>
+				<!--article-->
+				<!--article-->
+				<article>
+					<header>
+						<h2>new form tags</h2>
+						<p>created by <span>ahmed</span> on <span>20/2/2019</span></p>
+					</header>
+					<section>
+					<form>
+						<input type="color" name="color" placeholder="color">
+						<input type="range" name="range" min="0" max="100" value="20" placeholder="range">
+						<input type="number" name="number" min="3" max="21" value="" step="3" placeholder="number">
+						<input type="email" name="email" placeholder="email">
+						<input type="search" name="search" placeholder="search">
+						<input type="url" name="url" placeholder="url">
+						<input type="tel" name="tel" placeholder="tel">
+						<input type="time" name="time">
+						<input type="datetime-local" name="dt-l"><!--date/month/week are also time form tags-->
+						<input type="submit" value="go">
+					</form>
+					</section>
+				</article>
+			
+			<!--article-->
+			<!--article-->
+				<article>
+					<header>
+					<h2>new form attributes</h2>
+						<p>created by <span>ahmed</span> on <span>20/2/2019</span></p>
+					</header>
+					<section>
+					<form id="mainform" novalidate action="" method="get" enctype="">
+						<input type="text" name="name" placeholder="name" autocomplete="off">
+						<input type="email" name="email" placeholder="email"  multiple required>
+						<input type="password" min="7" name="p" placeholder="pattren" pattern="[A-Z]{6}">
+						<input type="submit" value="go">
+						<select name="broswer">
+							<option>opera</option>
+							<option>chrome</option>
+							<option>safari</option>
+							<option>firefox</option>
+							<option>microsoft edge</option>
+							<option>internet explorer</option>
+							
+						</select>
+					</form>
+					<input type="text" name="nickname" form="mainform" placeholder="nickname">
+					</section>
+				</article>
+			
+			<!--article-->
+			</div>
+			<!--aside-->
+			<aside>
+				<section>
+					<h3>html 5 new tags</h3>
+					<ul>
+						<li>header</li>
+						<li>nav</li>
+						<li>article</li>
+						<li>main</li>
+						<li>section</li>
+					</ul>
+				</section>
+				<section>
+					<h3>meter</h3>
+					<div id="meter">
+						meter : <meter value=".5" low=".25" high=".75"></meter>
+						<!--it get red when opt be higher then high and low and value lower then low and high  {small red} { value < low < high < opt } OR when opt be lower then high and low and value higher then low and high  {big red} { value > low > high > opt }<!--red color appers just when optimum is determained or in the situation below-->
+						<!--when low > high the meter will be green except if the value is higher then low & high{it colored in red}  -->
+					</div>
+
+				</section>
+				<section>
+					<h3>top members</h3>
+					<ol>
+						<li>Sora : 1800p</li>
+						<li>ahmed : 1500p</li>
+						<li>eljoker : 1300p</li>
+						<li><bdi>أحمد</bdi> : 1100p</li>
+						<li><bdi>أمنية</bdi> : 1000p</li>
+					</ol>
+				</section>
+				<section class="cal">
+					<h3>calculate your age in min</h3>
+					<form oninput="result.value = parseInt(age.value) * parseInt(day.value) * parseInt(hour.value) * parseInt(min.value) + ' min'">
+						<input type="text" name="age">
+						<input type="hidden" name="day" value="365">
+						<input type="hidden" name="hour" value="24">
+						<input type="hidden" name="min" value="60">
+					<output name="result"></output>
+					</form>
+				</section>
+			</aside>
+			<!--aside-->
+			<div class="clearfix"></div>
+			<!--footer-->
+			<footer>copyright 2019 &copy; all rights reserved</footer>
+			<!--footer-->
+		</body>
+	</html>
+
+

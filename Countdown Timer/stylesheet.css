@@ -1,0 +1,33 @@
+#btn{  background-color:#32CD75;
+    border: 2px solid #32CD75;
+	font-weight: bold;
+	font-family: cursive;
+    padding: 10px;
+    width: 200px;
+    height: 60px;
+    text-transform: capitalize;
+	font-size: 25px;
+	cursor:pointer}
+#inp {
+
+	width: 280px;
+	height: 50px;
+	font-family:cursive;
+	font-size: 25px;
+	background-color: #32CD75
+}
+#st 
+{
+	width: 500px;
+	height: 500px;
+	margin: 50px auto;
+	padding: 30px;
+	background-color: #ccc
+}
+#x
+{
+	text-align: center;
+	
+}
+body {background-color: #555}
+.ac{color: #32CD75}

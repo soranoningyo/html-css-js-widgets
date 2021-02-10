@@ -1,0 +1,49 @@
+* {
+    text-transform: capitalize;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none !important
+}
+body {background-color: rgb(198, 223, 183);}
+.container {
+    width: 80%;
+    margin: auto;
+}
+header {
+    background-color: rgb(98, 185, 82);
+    color: rgb(45, 63, 78);
+    padding: 20px;
+}
+h1 {
+   text-align: center;
+}
+main {
+    padding: 50px 30px;
+}
+#inp {
+    border: 1px solid rgb(114, 95, 95);
+    border-radius: 50px;
+    padding: 10px;
+    background-color: rgb(216, 240, 184);
+    color: rgb(40, 78, 52);
+    margin-bottom:20px;
+}
+main > button {
+    padding: 10px;
+    border-radius: 50px;
+    background-color: rgb(216, 240, 184);
+}
+.notes {
+padding: 10px;
+}
+.notes > p {
+    display: inline-block;
+    margin-left: 15px;
+    font-size: 25px;
+}
+.notes input[type = checkbox]:checked + p {
+    text-decoration: line-through;
+    color: gray;
+    font-style: italic
+}

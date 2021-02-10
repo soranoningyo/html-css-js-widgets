@@ -1,0 +1,519 @@
+/* Start Global */
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+	font-family: cursive;
+	text-transform: capitalize
+}
+
+body {
+    
+}
+
+.container {
+    width: 1200px;
+    margin: auto;
+    min-width: 1200px
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0
+}
+
+h2, h3, h4 {
+    font-weight: normal
+}
+
+nav, 
+header,
+.aboutus,
+.ourteam,
+.testi,
+.projects,
+footer {min-width: 1200px}
+
+/* End Global */
+
+/* Start Navbar */
+
+nav {
+    font-size: 18px;
+    height: 0;
+    position: relative;
+    z-index: 2
+}
+
+nav .brand {
+    float: left;
+    text-transform: uppercase;
+    margin-top: 10px;
+	color: #7a173c;
+}
+nav .brand h2
+{
+	font-size: 60px;
+	margin-top: 10px;
+}
+
+nav .links {
+    float: right;
+    margin-top: 25px
+}
+
+
+nav .links li {
+    border-bottom: 1px solid transparent;
+	color: #fff;
+	display: inline-block;
+	font-weight: 600;
+/*	font-size: 22px;*/
+	margin: 0 10px;
+	padding: 10px 5px;
+	text-shadow: 0 -15px 2.5px transparent, 0 15px 2.5px transparent;
+}
+
+nav .links li a {
+	color: inherit;
+	text-decoration: none;
+	outline: 0;
+		
+}
+nav .links li .active
+{
+	text-shadow: 0 -15px 2.5px transparent, 0 15px 2.5px transparent;
+	border-bottom: 2px solid #7a173c;
+	color: #7a173c;
+}
+
+
+nav .links li.active,
+nav .links li:hover {
+	border-bottom: 2px solid #7a173c;
+	cursor: pointer;
+	text-shadow: 0 0 2.5px #7a173c, 0 0 2.5px #7a173c;
+	color: #7a173c !important;
+	-webkit-transition: all .5s linear 0s;
+	-moz-transition: all .5s linear 0s;
+	-ms-transition: all .5s linear 0s;
+	-o-transition: all .5s linear 0s;
+	 transition: all .5s linear 0s;
+}
+
+
+/* End Navbar */
+
+/* Start Header */
+
+header {
+    background: url('../images/bg.jpg');
+	background-size: cover;
+    position: relative
+}
+
+header .overlay {
+    background-color: rgba(0, 0 ,0 , 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    color: #FFF;
+    z-index: 1
+}
+
+header .bx-wrapper {
+    height: 100%
+}
+
+header .bx-wrapper .bx-viewport {
+    box-shadow: none;
+    border: 0;
+    background: none;
+    height: 100% !important;
+    text-align: center
+}
+
+header .bxslider {
+    height: 100%
+}
+
+header .bxslider li {
+    display: block
+}
+
+header .bxslider li h2 {
+    font-size: 60px;
+    margin-bottom: 20px;
+    margin-top: 0;
+    font-weight: bold
+}
+
+header .bxslider li h2 span {
+    color: #7a173c;
+}
+header .bxslider li p
+{
+	font-size: 20px
+}
+
+/* End Header */
+/* starting About us*/
+.aboutus
+{
+	padding: 80px 20px 60px;
+}
+.aboutus h2
+{
+	margin: 0 0 50px;
+}
+.aboutus .items
+{
+	float: left;
+	width: 32%;
+	margin-bottom: 15px;
+	margin-right: 1.2%
+}
+.aboutus .items i 
+{
+	color: #7a173c;
+	display: block;
+	margin-top: 50px;
+}
+.aboutus .items p
+{
+	font-size: 20px;
+	margin: 20px 0;
+	color: #555
+}
+.aboutus .items h3
+{
+	margin: 10px 0
+}
+.aboutus .items .icon
+{
+	float: left;
+	width: 25%;
+	margin-right: 5%;
+
+}
+.aboutus .items .info
+{
+	float: left;
+	width: 70%;
+}
+/* Ending About us */
+/* Starting Our Team */
+.ourteam
+{
+	padding: 40px 20px;
+}
+.ourteam .cells,.ourteam .desc{float: left}
+.ourteam .desc
+{
+	width: 35%
+}
+.ourteam .desc p
+{	
+	color: #555;
+	line-height: 1.5;
+	padding-right: 25px;
+}
+.ourteam .cells
+{
+	width: 15%;
+	margin-left: 1.25%;
+	position: relative;
+}
+.ourteam .cells img
+{
+	width: 100%
+}
+.ourteam .cells .overlay
+{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	width: 100%;
+	height: 100%;
+	line-height: 183px;
+	text-align: center;
+	background-color: #7a173c;
+	font-weight: bold;
+	font-size: 30px;
+	display: none;
+}
+.ourteam .cells:hover .overlay
+{
+	display: block;
+	opacity: .8
+}
+/* Ending Our Team */
+/* starting testimonials */
+.testi
+{
+	background: url(../images/sai-kiran-anagani-61187-unsplash.jpg);
+	background-size: cover;
+	height: 400px;
+	position: relative;
+	text-align: center;
+	color: #fff;
+	padding: 80px 0;
+}
+.testi .overlay
+{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #000;
+	opacity: .7;
+	font-size: 20px;
+	line-height: 1.5
+}
+.testi .overlay h3
+{
+	margin: 80px 0 40px;
+	font-size: 40px
+}
+.testi .overlay p
+{
+	margin-top: 25px;
+	color: #bb0032;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.testi .overlay .slider > div
+{
+	display: none
+}
+.testi .overlay .slider .act
+{
+	display: block;
+}
+/* Ending testimonials */
+/* Starting Projects */
+.projects
+{
+	padding: 80px 40px;
+	height: 960px
+}
+.projects ul li
+{
+	color: #1BBC9B;
+	border: 1px solid #1BBC9B;
+	border-radius: 10px;
+	display: inline-block;
+	margin:25px 10px 30px 0;
+	padding: 10px 20px;
+	cursor: pointer
+}
+.projects ul li:first-child
+{
+	margin-left: 0;
+}
+.projects ul .active
+{
+	background-color: #1BBC9B;
+	color: #fff
+}
+.projects ul li:hover
+{
+	background-color: #1BBC9B;
+	color: #fff;
+}
+.projects .gallary
+{
+	margin-top: 40px;
+	overflow: hidden
+}
+.projects .gallary .row > div
+{
+	float: left;
+	width: 32.6666%;
+	margin-bottom: 15px;
+	position: relative;
+	margin: 0 1% 10px;
+}
+.projects .gallary .row > div img
+{
+	width: 100%;
+}
+.projects .gallary .row > div:not(:nth-child(2))
+{
+	margin: 0 0 10px;
+}
+
+.projects .gallary .row > div .overlay
+{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	width: 100%;
+	height: 100%;
+	padding-top: 100px;
+	text-align: center;
+	background-color: #7a173c;
+	font-weight: bold;
+	font-size: 30px;
+	opacity: .5;
+	display: none;
+}
+.projects .gallary .row > div .overlay button
+{
+	background-color: transparent;
+	border: 1px solid #fff;
+	padding: 10px;
+	color: #fff;
+	font-size: 15px;
+	outline: 0;
+}
+.projects .gallary .row > div > span
+{
+	position: absolute;
+	bottom: 15px;
+	right: 15px;
+	color: #fff;
+	display: none
+}
+.projects .gallary .row > div:hover .overlay,
+.projects .gallary .row > div:hover > span
+{
+	display: block
+}
+.mix
+{
+	display: none;
+}
+/* Ending Projects */
+/* Starting Footer */
+footer
+{
+	background-color: #232323;
+	color: #767676;
+	padding: 50px 0;
+	width: 100%
+}
+footer h3
+{
+	color: #eee;
+}
+footer section
+{
+	float: left;
+	width: 25%
+}
+footer .about
+{
+	padding-right: 30px
+}
+.social-icons{
+	margin-top: 30px
+}
+footer section i
+{
+	display: block;
+	border: 1px solid #767676;
+	padding: 12px;
+}
+footer section i:first-child
+{
+	padding: 12px 15px;
+}
+footer .tags
+{
+	padding-right: 10px
+}
+footer .tags span
+{
+	border: 1px solid #C3C3C3;
+	color: #C3C3C3;
+	display: inline-block;
+	margin: 10px;
+	margin-left: 0;
+	padding: 10px 15px;
+	
+}
+
+footer h3{
+	margin-bottom: 40px
+}
+footer .recent > div 
+{
+	overflow: hidden;
+	margin-bottom: 15px
+}
+footer .recent > div img
+{
+	float: left;
+	margin-right: 7px;
+	width: 80px;
+	height: 60px;
+	border: 1px solid #C3C3C3
+}
+footer .recent > div h4
+{
+	margin: -4px 0 6px;
+	color: #ccc
+}
+footer section ul 
+{
+	margin-left: 20px
+}
+footer section ul li
+{
+	padding: 15px;
+	border-bottom: 1px solid #767676;
+	color: #C3C3C3
+}
+footer section ul li:first-child
+{
+	padding-top: 0px
+}
+footer .blog h3
+{
+	padding-left: 15px
+}
+
+/* Ending Footer */
+
+
+/* Start My Framework */
+
+.clearfix {
+    clear: both
+}
+
+.special-heading {
+    position: relative
+}
+
+.special-heading:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50px;
+    left: 30px;
+    width: 80px;
+    border-bottom: 2px solid #333;
+}
+
+.separator {
+    border: 1px solid #f65078
+}
+
+/* End My Framework */
+

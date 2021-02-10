@@ -1,0 +1,89 @@
+body
+{
+	background: #666
+}
+button
+{	
+	background-color: #ccc;
+	display: block;
+	height: 50px;
+	margin: 0 auto;
+	position: relative;
+	top: 300px;
+	width: 100px;
+	
+}
+.container
+{
+	background-color: #eee;
+	border: 4px solid #777;
+	height: 0;
+/*	350*/
+	margin: 0 auto;
+/*	170*/ 
+	padding: 15px;
+	position: relative;
+	width: 0;
+	top: -300px;
+/*	500*/
+}
+form
+{display: none;
+	border: 1px solid #ccc;
+	height: 90%;
+	border-radius: 40px;
+	margin: 15px;
+	position: relative;
+}
+#a0
+{
+	display: block;
+	text-align: center;
+	margin-top: 15px;
+}
+input[type='email'],input[type='password']
+{
+	border: 1px solid #777;
+	border-radius: 5px;
+	display: block;
+	margin: 25px;
+/*	margin-left: 15px;*/
+	padding: 15px;
+	padding-left: 15px;
+	width: 300px;
+	
+}
+input[type='checkbox']
+{
+	display: inline-block;
+	
+/*	margin-top: 10px;*/
+
+}
+#b0
+{
+	font-size: 15px
+}
+.good
+{
+	margin-top: 10px;
+	float: left;
+}
+#down
+{
+	margin-top: 70px;
+	margin-left: 20px;
+	height: 50px
+}
+input[type='submit']
+{
+	background-color: #aaa;
+	border-radius: 10px;
+	float: right;
+	font-family: cursive;
+	font-size: 18px;
+	height: 40px;
+	margin-bottom: 90px;
+	width: 90px;
+	margin-right: 20px;
+}

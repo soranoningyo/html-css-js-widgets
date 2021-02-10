@@ -1,0 +1,30 @@
+body
+{
+	height: 800px;
+/*	width: 800px;*/
+}
+/*
+div
+{
+	background-color: #eee;
+	border: 1px solid #888;
+	height: 200px;
+	margin: auto;
+	width: 200px;
+*/
+	
+}/*margin auto on height has no effect*/
+.x
+{
+	height: 0;
+}
+.y
+{
+	height: 400px;
+	background-color: black
+}
+.z
+{
+	height: 500px;
+	background-color: red
+}
